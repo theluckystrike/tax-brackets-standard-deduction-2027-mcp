@@ -1,0 +1,6 @@
+[
+  ["get_tax_brackets", { "filing_status": "single" }],
+  ["get_standard_deduction", { "filing_status": "married_filing_jointly", "age_65_or_older_count": 2 }],
+  ["calculate_federal_income_tax", { "filing_status": "single", "income": 100000 }],
+  ["get_tax_amounts", { "topic": "capital_gains" }]
+]
